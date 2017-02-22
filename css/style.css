@@ -3,6 +3,13 @@ body{
   padding: 0;
   background-color:;
 }
+
+.recept_naam {
+  background-color: #f55449;
+  color:white;
+  margin-top: -21px;
+  margin-bottom: -22px;
+}
 .instructies li {
   list-style-type:decimal;
   padding:4px;
@@ -16,6 +23,7 @@ h1, h3 {
 }
 h1 {
   text-indent: 10px;
+  padding: 10px 0;
 }
 .info {
   background-color: #f55449
@@ -34,15 +42,27 @@ h1 {
   display: flex;
   align-items: center;
   color:white;
+
 }
 i {
   padding-right: 2px;
 }
 .ingredienten {
-  border-top: 1px solid grey;
   padding: 20px 0;
-  margin-top: 40px;
+}
+
+.ingredienten h3 {
+  color: white;
+  padding: 10px;
+  letter-spacing: 1px;
+  background-color: #f55449
+
 }
 .ingredienten ul{
-  list-style-type: none
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.ingredienten li {
+  margin-top: 5px;
 }
